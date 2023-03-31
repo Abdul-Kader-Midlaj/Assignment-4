@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet4.css">
+</head>
+<body>
+    <h1>Let us Fill this form</h1>
+    <form>
+        <label class="leftarea" for="fname">Name </label>
+        <input type="text" id="fname" name="fname" placeholder="Enter Name"><br><br>
+  
+        <label class="leftarea" for="date">DOB </label>
+        <input type="date" id="fdate" name="fdate"><br><br>
+  
+        <label class="leftarea" for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="Male" >
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="Female" >
+        <label for="female">Female</label><br><br>
+  
+        <label class="leftarea" for="fav_food">Favourite Food</label>
+        <input type="radio" id="hamburger" name="fav_food" value="&#127828;Hamburger" >
+        <label for="hamburger">&#127828;Hamburger</label>
+        <input type="radio" id="pizza" name="fav_food" value="&#127829;Pizza" >
+        <label for="pizza">&#127829;Pizza</label><br><br>
+  
+        <div id="no4">
+          <div id="drinkleft">
+              <label class="leftarea" id="drink" for="fav_drink">Favourite Drink</label>
+          </div>
+          <div id="drinkright">
+              <input type="checkbox" id="drink1" name="drink" value="&#x1F964;Soda" class="drink">
+              <label for="drink1">&#x1F964;Soda</label><br>
+              <input type="checkbox" id="drink2" name="drink" value="&#129475;Apple Juice" class="drink">
+              <label for="drink2">&#129475;Apple Juice</label><br>
+              <input type="checkbox" id="drink3" name="drink" value="&#129371;Glass of Milk" class="drink">
+              <label for="drink3">&#129371;Glass of Milk</label><br>
+              <input type="checkbox" id="drink4" name="drink" value="&#9749;Hot Coffee" class="drink">
+              <label for="drink4">&#9749;Hot Coffee</label><br><br>
+          </div>
+        </div>
+        <div id="no5">
+          <div id="anythingleft">
+              <label class="leftarea" id="anyright" for="anything">Anything else</label>
+          </div>
+          <div id="anythingright">
+              <textarea id="anything" name="anything" rows="2" cols="50"></textarea><br><br>
+          </div>
+        </div>
+  
+  
+        <button id="submit">Submit</button>
+      </form>
+      <hr>
+    <div id="details">
+      <div id="details-list"></div>
+    </div>
+
+    <script src="app4.js"></script>
+  </body>
+</html>
+
+

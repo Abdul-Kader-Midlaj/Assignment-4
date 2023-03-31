@@ -1,0 +1,21 @@
+.leftarea{
+    margin-left:100px;
+    
+    display:inline-block;
+}
+#drinkright{
+    margin-left: 200px;
+    display: inline-block;
+    
+    
+}
+
+#submit{
+    margin-left: 200px;
+}
+#anythingright{
+    margin-left: 200px;
+}
+#details-list{
+    margin-left:100px;
+}
